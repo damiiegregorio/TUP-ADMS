@@ -1,0 +1,37 @@
+/*CSS PANELS*/
+
+.area-panel{
+    border-color: #d3e0e9;
+    margin-top: 10px;
+    background-color: rgba(34, 34, 34, 0.08);
+}
+.area-panel .area-panel-heading{
+	color: #fff;
+    background-color: #111;
+    padding: 10px;
+}
+.area-panel .area-panel-heading a:hover{
+	color: #f5d02a;
+	text-decoration: underline;
+}
+.area-panel .area-panel-heading .active {
+	color: #f5d02a;
+
+}
+.parameter-panel{
+	border-color: #d3e0e9;
+    /* margin-top: 10px; */
+    background-color: #b11e1e;
+    color: #000;
+}
+.area-panel table{
+	border-radius: 5px;
+}
+
+.area-panel li>a:hover{
+	color: #b11e1e;
+	transition: 0.4s;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.

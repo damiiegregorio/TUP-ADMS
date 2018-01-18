@@ -8,7 +8,7 @@
 		<div class="panel area-panel">
 		  <div class="area-panel-heading">
 		  	<a href="#">Area 1</a> >
-		  	<a href="#">System Input and Processes</a> >
+		  	<a href="#">Parameter A: System Input and Processes</a> >
 		  	<a href="#" class="active">S.1</a>
 		  </div>
 		</div>

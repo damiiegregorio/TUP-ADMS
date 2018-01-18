@@ -88,6 +88,8 @@ class UploadController extends Controller
 
         $file->file_type = $extension;
 
+        $file->parameter = '1S1_1';
+
         $file->save();
         
 

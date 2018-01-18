@@ -75,7 +75,7 @@
             <!-- Dropdown menu content -->
             <ul class="dropdown-menu" role="menu">
               <li>
-                @if(count(auth()->user()->unreadNotifications) == 0)
+                  @if(count(auth()->user()->unreadNotifications) == 0)
                 <i style="color: #000; text-align: center; padding: 5px;">No unread notifications</i>
                 @else
                   @foreach(auth()->user()->unreadNotifications as $notification)
@@ -86,9 +86,60 @@
             </ul>
           </li><!--notifications-->
           <li class="upload">
-            <a href="/post/create" class="btn upload-btn">
+            <!-- <a href="/post/create" class="btn upload-btn">
             <span class="glyphicon glyphicon-upload" aria-hidden="true" title="Upload a file"></span>
-            </a>
+            </a> -->
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="upload-btn" data-toggle="modal" data-target="#createModal" onclick=""><span class="glyphicon glyphicon-upload" aria-hidden="true" title="Upload a file"></span></button>
+
+            <!-- Modal -->
+            <div id="createModal" class="modal fade" role="dialog">
+              <div class="modal-dialog upload-modal">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Upload a file</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="form-group">
+                        <label>Select document type</label>
+                        <!-- Selection for document type -->
+                        <select class="form-control" id="">
+                          <option>Memorandum</option>
+                            <option>Office Orders</option>
+                            <option>TUP Orders</option>
+                            <option>Certicates</option>
+                          <option>Researches</option>
+                          <option>Grade Sheets</option>
+                        </select>
+                    </div>
+                    <!-- Php code for connection of data -->
+                {!! Form::open(['action' => 'UploadController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
+                <!--/comment -->
+                    <div class="form-group">
+                        <label>Title</label>
+                          {{ Form::text('tags', '', ['class' => 'form-control']) }}
+                    </div>
+                    <div class="form-group">
+                        <label>Add a tag</label>
+                          {{ Form::text('tags', '', ['class' => 'form-control']) }}
+                    </div>
+                  <div class="form-group">
+                        <label>Select a file</label>
+                            {{ Form::file('file') }}
+                   </div>
+                    {{ Form::submit('Submit', ['class'=>'btn login-btn']) }}
+              {!! Form::close() !!}
+
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </li>
           </div>
         </ul>

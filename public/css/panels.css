@@ -27,11 +27,19 @@
 .area-panel table{
 	border-radius: 5px;
 }
-
+.area-panel li >a{
+    /*text-transform: capitalize;*/
+}
 .area-panel li>a:hover{
 	color: #b11e1e;
-	transition: 0.4s;
     text-decoration: underline;
-    font-weight: bold;
+    cursor: pointer;
 }
-.
+.area-panel span{
+    font-size: 10px;
+}
+
+.upload-modal {
+    color: #000;
+    text-align: left;
+}

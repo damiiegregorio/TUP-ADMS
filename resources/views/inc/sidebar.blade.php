@@ -124,52 +124,52 @@
                             <table class="table sidebar-submenu">
                                 <tr>
                                     <td>
-                                        <a href="" title="Area 1">Vision, Mission, Goals and Obejectives</a>
+                                        <a href="{{ route('area1') }}" title="Area 1">Vision, Mission, Goals and Obejectives</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 2">The Faculty</a>
+                                        <a href="{{ route('area2') }}" title="Area 2">The Faculty</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 3">Curriculum and Instruction</a>
+                                        <a href="{{ route('area3') }}" title="Area 3">Curriculum and Instruction</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 4">Support to Students</a>
+                                        <a href="{{ route('area4') }}" title="Area 4">Support to Students</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 5">Research</a>
+                                        <a href="{{ route('area5') }}" title="Area 5">Research</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 6">Extension and Community Involvement</a>
+                                        <a href="{{ route('area6') }}" title="Area 6">Extension and Community Involvement</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 7">Library</a>
+                                        <a href="{{ route('area7') }}" title="Area 7">Library</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 8">Physical Plant and Facilities</a>
+                                        <a href="{{ route('area8') }}" title="Area 8">Physical Plant and Facilities</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 9">Laboratories</a>
+                                        <a href="{{ route('area9') }}" title="Area 9">Laboratories</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#" title="Area 10">Administration</a>
+                                        <a href="{{ route('area10') }}" title="Area 10">Administration</a>
                                     </td>
                                 </tr>
                             </table>
@@ -185,12 +185,12 @@
                             </span> Bin</a>
                         </h4>
                     </div>
-                    <div id="collapseFour" class="panel-collapse collapse">
+                    <div id="collapseFive" class="panel-collapse collapse">
                         <div class="panel-body">
                             <table class="table sidebar-submenu">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+                                        <span class="glyphicon glyphicon-usd"></span><a href="{{ ('bin') }}">Sales</a>
                                     </td>
                                 </tr>
                                 <tr>

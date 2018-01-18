@@ -35,11 +35,11 @@
 						<tr>
 							<td>
 							<ol id="collapse2" class="accrdn">
-						    	<li><a href="">The institution has a system of determining its Vision and Mission.</a></li>
+						    	<li><a href="/area1/s1_1">The institution has a system of determining its Vision and Mission.</a></li>
 						      	<li><a href="">The Vision clearly reflects what the institution hopes to become in the future</a></li>
 						      	<li><a href="">The Mission clearly reflects the institution's legal and other statutory mandates</a></li>
 						      	<li><a href="">The Goals of the College/Academic Unit/ are consistent with the Missionof the institution.</a></li>
-						      	<li data-toggle="collapse" href="#sub-parameter2"><a href="">The objectives of the program have the expected outcomes in terms of competencies (skills and knowledge), values and other attributes of the graduates which include the development of:</a></li>
+						      	<li data-toggle="collapse" href="#sub-parameter2"><a href="">The objectives of the program have the expected outcomes in terms of competencies (skills and knowledge), values and other attributes of the graduates which include the development of: <span class="glyphicon glyphicon-chevron-down"></span></a></li>
 							      	<ol id="sub-parameter2" class="panel-collapse collapse">
 										<li><a href="#">Technical skills in Information Technology Education</a></li>
 										<li><a href="#">Research and extension capabilities</a></li>
@@ -118,13 +118,13 @@
 						<td>
 						<ol class="accrdn">
 							<li><a href="">A system of dissemination and acceptability of the VMGO is enforced.</a></li>
-							<li data-toggle="collapse" href="#sub-parameter3"><a href="">The administrators/faculty attend in-service seminars and training on awareness and acceptability of the:</a></li>
+							<li data-toggle="collapse" href="#sub-parameter3"><a href="">The administrators/faculty attend in-service seminars and training on awareness and acceptability of the: <span class="glyphicon glyphicon-chevron-down"></span></a></li>
 								<ol id="sub-parameter3" class="panel-collapse collapse">
 									<li><a href="#">Vision and Mission of the Institution</a></li>
 									<li><a href="#">Goals of the College/Academic Unit</a></li>
 									<li><a href="#">Objectives of the Program.</a></li>
 								</ol>
-							<li data-toggle="collapse" href="#sub-parameter4"><a href=""> The formulation/review/revision of the VMGO is participated in by the following:</a></li>
+							<li data-toggle="collapse" href="#sub-parameter4"><a href=""> The formulation/review/revision of the VMGO is participated in by the following: <span class="glyphicon glyphicon-chevron-down"></span></a></li>
 								<ol id="sub-parameter4" class="panel-collapse collapse">
 									<li><a href="#">Administrators</a></li>
 									<li><a href="#">Faculty</a></li>
@@ -148,7 +148,7 @@
 						<td>
 						<ol class="accrdn">
 							<li><a href="">There is full awareness and acceptance of the VMGO by the administrators, faculty, staff, students and other stakeholders.</a></li>
-							<li data-toggle="collapse" href="#sub-parameter5"><a href=""> There is congruency between actual educational practices and activities with the following:</a></li>
+							<li data-toggle="collapse" href="#sub-parameter5"><a href=""> There is congruency between actual educational practices and activities with the following: <span class="glyphicon glyphicon-chevron-down"></span></a></li>
 								<ol id="sub-parameter5" class="panel-collapse collapse">
 									<li><a href="#">Vision and mission of the SUC;</a></li>
 									<li><a href="#">Goals of the College/Academic Unit;</a></li>

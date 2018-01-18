@@ -11,7 +11,7 @@
 			<!-- Category contents -->
 			<div class="category-content">
 			<!-- PHP code for data loop -->
-			@if(count($files) >0)
+			@if(count($files) > 0)
 				<table class="table table-hover">
 					<thead>
 						<tr class="category-content">
@@ -19,8 +19,9 @@
 							<th class="col-xs-4">Action</th>
 						</tr>
 					</thead>
-					<tr class="file">
 			     		@foreach ($files as $file)	
+
+					<tr class="file">
 						<td class="col-xs-8">
 							<img src="{{ URL::to('/images/pdf.png') }}">
 							<a href="">{{$file->name}}</a>

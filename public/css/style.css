@@ -293,11 +293,14 @@ box-shadow: 10px 10px 35px -12px rgba(0,0,0,0.75);
 }
 
 .upload span{
-
     color: #f5d02a;
   }
 /*dashboard*/
-
+.upload-btn{
+      background: transparent;
+    border: none;
+    margin: 5px 0;
+}
 .upload-btn span{
 
     color: #f5d02a;/*dashboard*/

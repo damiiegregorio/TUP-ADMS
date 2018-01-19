@@ -68,9 +68,12 @@
 
 /*SIDE BAR MENU*/
 .sidebar{
-    background-color: rgba(255, 255, 255, 0.38);
-    margin: 2px 5px;
+    background-color: transparent;
+    margin: 20px 5px;
     border-radius: 7px;
+    -webkit-box-shadow: -6px -10px 83px -30px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px -10px 83px -30px rgba(0,0,0,0.75);
+box-shadow: -6px -10px 83px -30px rgba(0,0,0,0.75);
 }
 .sidebar span{
 	color: #fff;
@@ -89,7 +92,7 @@
 	transition: 0.5s;
 }
 .sidebar-submenu td{
-	border-top: 1px solid #1b1b1b !important;
+	/*border-top: 1px solid #1b1b1b !important;*/
 }
 .profile-sidebar{
 	padding: 15px 0;
@@ -195,5 +198,8 @@ box-shadow: 10px 10px 50px -15px rgba(0,0,0,0.75);
 }
 
 .area-panel .panel-title span{
-	color: #f5d02a; float: right; font-size: 15px;
+	color: #1b1b1b; float: right; font-size: 15px;
+}
+.area-panel .panel-title span:hover{
+	color: #F5D02B; 
 }

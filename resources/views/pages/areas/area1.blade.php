@@ -7,7 +7,7 @@
 		<div class="panel area-panel">
 		  <div class="area-panel-heading">AREA 1: Vision, Mission, Goals and Objectives</div>
 		  <div class="panel-body">
-		  	<table class="table table-hover">
+		  	<table class="table ">
 			    <thead>	
 			      <tr>
 			        <th>Parameters</th>

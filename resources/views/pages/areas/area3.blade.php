@@ -7,7 +7,7 @@
 		<div class="panel area-panel">
 		  <div class="area-panel-heading">AREA 3: Curriculum and Instruction</div>
 		  <div class="panel-body">
-		  	<table class="table table-hover">
+		  	<table class="table">
 			    <thead>	
 			      <tr>
 			        <th>Parameters</th>
@@ -25,7 +25,7 @@
 					</div>
 					<div id="collapseA" class="panel-collapse collapse">
 					  <div class="panel-body parameter-panel">
-		  				<table class="table table-hover">
+		  				<table class="table">
 		  				<thead>	
 						<tr>
 						   <th data-toggle="collapse" href="#collapse2">System — Inputs and Process</th>
@@ -112,7 +112,7 @@
 				</div>
 				<div id="collapseB" class="panel-collapse collapse">
 					<div class="panel-body">
-		  			<table class="table table-hover">
+		  			<table class="table">
 		  			<thead>	
 					<tr>
 						<th>System — Inputs and Process</th>
@@ -256,7 +256,7 @@
 				</div>
 				<div id="collapseC" class="panel-collapse collapse">
 					<div class="panel-body">
-		  			<table class="table table-hover">
+		  			<table class="table">
 		  			<thead>	
 					<tr>
 						<th>System — Inputs and Process</th>
@@ -347,7 +347,7 @@
 				</div>
 				<div id="collapseG" class="panel-collapse collapse">
 					<div class="panel-body">
-		  			<table class="table table-hover">
+		  			<table class="table">
 		  			<thead>	
 					<tr>
 						<th>System — Inputs and Process</th>
@@ -426,7 +426,7 @@
 				</div>
 				<div id="collapseE" class="panel-collapse collapse">
 					<div class="panel-body">
-		  			<table class="table table-hover">
+		  			<table class="table">
 		  			<thead>	
 					<tr>
 						<th>System — Inputs and Process</th>
@@ -487,7 +487,7 @@
 				</div>
 				<div id="collapseF" class="panel-collapse collapse">
 					<div class="panel-body">
-		  			<table class="table table-hover">
+		  			<table class="table">
 		  			<thead>	
 					<tr>
 						<th>System — Inputs and Process</th>

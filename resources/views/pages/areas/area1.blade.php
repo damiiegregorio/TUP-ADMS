@@ -20,10 +20,10 @@
 				  <div class="panel panel-default">
 				    <div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">A. Satement of Vision, Mission, Goals and Objectives</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">A. Satement of Vision, Mission, Goals and Objectives <span class="glyphicon glyphicon-triangle-bottom"></span></a>
 					</h4>
 					</div>
-					<div id="collapse2" class="panel-collapse collapse">
+					<div id="collapse2" class="panel-collapse collapse ">
 					  <div class="panel-body parameter-panel">
 		  				<table class="table table-hover">
 		  				<thead>	
@@ -35,10 +35,10 @@
 						<tr>
 							<td>
 							<ol id="collapse2" class="accrdn">
-						    	<li><a href="/area1/s1_1">The institution has a system of determining its Vision and Mission.</a></li>
-						      	<li><a href="">The Vision clearly reflects what the institution hopes to become in the future</a></li>
-						      	<li><a href="">The Mission clearly reflects the institution's legal and other statutory mandates</a></li>
-						      	<li><a href="">The Goals of the College/Academic Unit/ are consistent with the Missionof the institution.</a></li>
+						    	<li><a href="/area1/1s1_1">The institution has a system of determining its Vision and Mission.</a></li>
+						      	<li><a href="/area1/1s1_2">The Vision clearly reflects what the institution hopes to become in the future</a></li>
+						      	<li><a href="/area1/1s1_3">The Mission clearly reflects the institution's legal and other statutory mandates</a></li>
+						      	<li><a href="/area1/1s1_4">The Goals of the College/Academic Unit/ are consistent with the Missionof the institution.</a></li>
 						      	<li data-toggle="collapse" href="#sub-parameter2"><a href="">The objectives of the program have the expected outcomes in terms of competencies (skills and knowledge), values and other attributes of the graduates which include the development of: <span class="glyphicon glyphicon-chevron-down"></span></a></li>
 							      	<ol id="sub-parameter2" class="panel-collapse collapse">
 										<li><a href="#">Technical skills in Information Technology Education</a></li>
@@ -71,7 +71,7 @@
 							<tr>
 								<th data-toggle="collapse" href="#collapse2">Outcome/s</th>
 							</tr>
-							</thead>
+						</thead>
 							<tr>
 								<td>
 								<ol id="collapse2" class="accrdn">
@@ -81,18 +81,17 @@
 							</tr>
 		  				</table>
 		  			</div>
-		  		</div>
+		  		</div> <!-- End of div.panel -->
 		  	</div><!-- END OF PANEL -->
 		  		  <!-- PARAMETER B -->
-			<div class="panel-group" id="accordion">
-		  		<div class="panel panel-default">
+	  		<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">B. Dissemination and Acceptability</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">B. Dissemination and Acceptability <span class="glyphicon glyphicon-triangle-bottom"></span></a>
 					</h4>
 				</div>
 				<div id="collapse3" class="panel-collapse collapse">
-					<div class="panel-body">
+					<div class="panel-body parameter-panel">
 		  			<table class="table table-hover">
 		  			<thead>	
 					<tr>
@@ -162,7 +161,6 @@
 		  			</div>
 		  		</div>
 		  		</div>
-		  	</div>	
 		  	</div>
 		  	</td>
 		  	</tr>

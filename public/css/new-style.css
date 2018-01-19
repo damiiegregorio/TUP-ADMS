@@ -81,10 +81,10 @@
 	color: #fff;
 }
 .sidebar-submenu a{
-	color: #000;
+	color: #fff;
 }
 .sidebar-submenu a:hover{
-	color: #fff;
+	color: #f5d02a;
 	text-decoration: underline;
 	transition: 0.5s;
 }
@@ -194,3 +194,6 @@ box-shadow: 10px 10px 50px -15px rgba(0,0,0,0.75);
 	color: #fff;
 }
 
+.area-panel .panel-title span{
+	color: #f5d02a; float: right; font-size: 15px;
+}

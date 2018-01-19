@@ -105,7 +105,6 @@
                                         <a href="http://www.jquery2dotnet.com">Import/Export</a>
                                     </td>
                                 </tr>
-                                
                             </table>
                         </div>
                     </div>
@@ -116,7 +115,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-folder-open">
-                            </span> All Areas</a>
+                            </span> &nbsp; All Areas</a>
                         </h4>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
